@@ -1,0 +1,95 @@
+.bodyloginn{ 
+	background-image: url(https://t4.ftcdn.net/jpg/02/86/32/15/360_F_286321594_HHLM1hCAuqrrqQ0Sv3SKF7uHhmrojMoq.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top: 50px;
+
+}
+
+
+.form-box-login{
+	max-width: 350px;
+	background: #a09461;
+	overflow: hidden;
+	border-radius: 16px;
+	color: #181509;
+	margin-left: 40%;
+  }
+  
+  .formLogin{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 85px 24px 24px;
+	gap: 45px;
+	text-align: center;
+	
+	
+  }
+  
+  /*Form text*/
+  .titleLogin {
+	font-weight: bold;
+	font-size: 1.6rem;
+	padding-top: 5px;
+  }
+  
+  .subtitleLogin {
+	font-size: 1rem;
+	color: #f87a13;
+  }
+  
+  /*Inputs box*/
+  .form-container-login {
+	overflow: hidden;
+	border-radius: 8px;
+	background-color: #fff;
+	margin: 1rem 0 .5rem;
+	width: 100%;
+  }
+  
+  .inputlogin {
+	background: none;
+	border: 0;
+	outline: 0;
+	height: 40px;
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	font-size: .9rem;
+	padding: 8px 15px;
+  }
+  
+  .form-section {
+	padding: 16px;
+	font-size: .85rem;
+	background-color: #e0ecfb;
+	box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+  }
+  
+  .form-section a {
+	font-weight: bold;
+	color: #eca115;
+	transition: color .3s ease;
+  }
+  
+  .form-section a:hover {
+	color: #e6c400;
+	text-decoration: underline;
+  }
+  
+  /*Button*/
+  .form button {
+	background-color: #c9ae17b0;
+	color: #aa8d0d;
+	border: 0;
+	border-radius: 24px;
+	padding: 10px 16px;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color .3s ease;
+  }
+  
+  .form button:hover {
+	background-color: #e6bc00;
+  }
